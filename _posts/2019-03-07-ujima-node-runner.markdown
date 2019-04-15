@@ -2,6 +2,7 @@
 layout: post
 title:  "Mass Mesh x Ujima Kickoff"
 date:   2019-03-07 10:22:54 -0400
+author: James Vorderbruggen
 categories: outreach ujima
 ---
 On March 6, three members of the core MassMesh team, plus Ned and I ventured down to Jamaica Plain to present about mesh nets and their liberatory potential. Our audience: Ujima Boston, a democratically controlled investment fund focused on building the solidarity/co-op economy. In order to demonstrate the process of building a mesh network vividly, we played a game called NodeRunner that was originally developed in 2015 by the Detroit Digital Justice Coalition. Participants were able to successfully play through the game, and we garnered a lot of rich input about what residents of JP expect out of community owned internet infrastructure.

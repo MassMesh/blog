@@ -2,6 +2,7 @@
 layout: post
 title:  "Wireless Community Networks In Action"
 date:   2019-04-14 00:00:00 -0400
+author: James Vorderbruggen
 categories: research
 ---
 
