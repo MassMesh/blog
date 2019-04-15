@@ -5,7 +5,11 @@ date:   2019-04-14 00:00:00 -0400
 categories: research
 ---
 
-[Wireless community networks (WCNs)](https://communitytechnology.github.io/docs/cck/introduction/about-community-wireless/) provide a viable alternative to corporate or municipal wireless networks. They grow by installing wireless hardware in households and on rooftops that recieve *and* broadcast Internet signal. **In a WCN, everyone on the network is a contributor rather than simply an idle consumer.** While a network where everyone is a contributor may sound radical or even far-fetched, there are many projects under active development in the United States that exemplify its feasibility. These projects tend to focus on closing the [digital divide](https://en.wikipedia.org/wiki/Digital_divide), and provide models for those of us trying to build community owned internet infrastructure in our own cities. I have compiled a (probably incomplete) list of these projects and some key aspects of their story.
+[Wireless community networks (WCNs)](https://communitytechnology.github.io/docs/cck/introduction/about-community-wireless/) provide a viable alternative to corporate or municipal wireless networks. They grow through collective action focused on installing wireless hardware in households and on rooftops to recieve *and* broadcast Internet signal. **In a WCN, everyone on the network is a contributor rather than simply a consumer.** 
+
+While a network where everyone is a contributor may sound radical or even far-fetched, there are many projects under active development in the United States that exemplify its feasibility. Most of these projects are [mesh networks,](https://en.wikipedia.org/wiki/Mesh_networking) which are just one kind of network capable of achieving the goal of community ownership. Mesh networks are particularly optimal for this purpose, though, because they are dynamic -- routers can be disconnected at random without the network breaking down. For those interested in the nitty-gritty technical details of meshing protocols, see the [Yggdrasil](https://github.com/yggdrasil-network), [CJDNS](https://github.com/cjdelisle/cjdns/), [BMX](https://github.com/bmx-routing/), [B.A.T.M.A.N.](https://openwrt.org/docs/guide-user/network/wifi/mesh/batman), and/or [babeld](https://github.com/jech/babeld) projects.
+
+All of the projects I've presented below focus on closing the [digital divide](https://en.wikipedia.org/wiki/Digital_divide), but some have taken a more active approach to this goal. In particular, DCTP and Red Hook have stood out in this regard. NYC Mesh has probably the most efficient operational setup, and is a model for rapid expansion. Ultimately, each has its own strengths, weaknesses, actors, neighborhoods, needs, and level of maturity. This diversity of networks is one of the strengths of the WCN model, but a good synopsis of existing projects is rare online. If you would like to see your network represented on this list, or have any additions/corrections, please [contact the author!](mailto:lurker@riseup.net)
 
 ## 1. Detroit Community Technology Project
 
@@ -85,27 +89,7 @@ Another unique aspect of their network the emphasis on resilient installations (
 
 -----
 
-## 4. Pitt Mesh
-
-![Pitt Mesh Banner Image][pittmeshtable]
-
-**[Project Homepage](https://www.pittmesh.net/)**
-
-**Formed:** 2013
-
-**Location:** Pittsburg, PA
-
-**Network Size (2019):** [~65 nodes](https://www.pittmesh.net/)
-
-**Funding:** Donations accepted through [MetaMesh](https://www.metamesh.org/), a 501(c)3
-
-**Technology:** OpenWRT (Batman-adv???)
-
-This project is based in Pittsburg, and was started by Meta Mesh in 2013. They operate piNet, a network of failure-resistant rasperry pis that host local services like a community hub. Their network consists of about 65 nodes.
-
------
-
-## 5. People's Open Network
+## 4. People's Open Network
 
 ![People's Open Network Banner][peoplesopenbanner]
 
@@ -125,9 +109,29 @@ The People's Open Network is based in Oakland, and is partnered with Sudo Mesh f
 
 The routers on the People's Open Network run a custom firmware, called [sudo-wrt](https://github.com/sudomesh/sudowrt-firmware), which uses [babeld](https://github.com/jech/babeld) for its underlying routing protocol.
 
-There are useful applications being built by Sudo Room hackers on this network. [Garden Mesh](https://peoplesopen.net/gardenmesh/) is a highly specialized kind of mesh network that was developed by Sudo Mesh and others during a conference at Omni Commons in 2017. It gathers sensor data from plants, which are meshed together using micro-computers.
+There are useful applications being built by Sudo Room hackers on this network. [Garden Mesh](https://peoplesopen.net/gardenmesh/) is a highly specialized kind of mesh network that was developed by Sudo Mesh and [Counter Culture Labs](https://www.counterculturelabs.org/) during a conference at Omni Commons in 2017. It gathers sensor data from plants, which are meshed together using micro-computers. [disaster.radio](https://disaster.radio/) is a disaster-resilient communications network powered by the sun. The People's Open Network also hosts many [events](https://sudoroom.org/wiki/Mesh/Presentations) in their area.
 
 This project is supported by [Sudo Mesh](https://sudoroom.org/wiki/Mesh), [Sudo Room](https://sudoroom.org/), [Omni Commons](https://omnicommons.org/), and the [Internet Archive.](https://archive.org/) These organizations provide software, meeting space, and free bandwidth. 
+
+-----
+
+## 5. Pitt Mesh
+
+![Pitt Mesh Banner Image][pittmeshtable]
+
+**[Project Homepage](https://www.pittmesh.net/)**
+
+**Formed:** 2013
+
+**Location:** Pittsburg, PA
+
+**Network Size (2019):** [~65 nodes](https://www.pittmesh.net/)
+
+**Funding:** Donations accepted through [MetaMesh](https://www.metamesh.org/), a 501(c)3
+
+**Technology:** OpenWRT (Batman-adv???)
+
+This project is based in Pittsburg, and was started by Meta Mesh in 2013. They operate piNet, a network of failure-resistant rasperry pis that host local services like a community hub. Their network consists of about 65 nodes.
 
 -----
 
@@ -144,6 +148,8 @@ This project is supported by [Sudo Mesh](https://sudoroom.org/wiki/Mesh), [Sudo 
 **Network Size (2019):** [~82 access points](https://cwnmyr.personaltelco.net/)
 
 **Funding:** [Donations](http://personaltelco.net/donate)
+
+**Technology:** Not actually a mesh-net
 
 This project consists of almost 100 hot-spots throughout the city of Portland, Oregon. The group was established in 2000, and is not a mesh network. (As far as I can tell...) This is more of a hot-spot sharing initiative, but since it appears to provide strong internet access, I've included it here.
 
