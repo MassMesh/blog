@@ -5,7 +5,7 @@ date:   2019-04-14 00:00:00 -0400
 categories: research
 ---
 
-[Wireless community networks (WCNs)](https://communitytechnology.github.io/docs/cck/introduction/about-community-wireless/) provide a viable alternative to corporate or municipal wireless networks. They grow by installing wireless hardware in households and on rooftops that recieve *and* broadcast Internet signal. **In a WCN, everyone on the network is a participant rather than an idle consumer.** While a network where everyone is a participant may sound radical or even far-fetched, there are many projects under active development in the United States that exemplify its feasibility. These projects tend to focus on closing the [digital divide](https://en.wikipedia.org/wiki/Digital_divide), and provide models for those of us trying to build community owned internet infrastructure in our own cities. I have compiled a (probably incomplete) list of these projects and some key aspects of their story.
+[Wireless community networks (WCNs)](https://communitytechnology.github.io/docs/cck/introduction/about-community-wireless/) provide a viable alternative to corporate or municipal wireless networks. They grow by installing wireless hardware in households and on rooftops that recieve *and* broadcast Internet signal. **In a WCN, everyone on the network is a contributor rather than simply an idle consumer.** While a network where everyone is a contributor may sound radical or even far-fetched, there are many projects under active development in the United States that exemplify its feasibility. These projects tend to focus on closing the [digital divide](https://en.wikipedia.org/wiki/Digital_divide), and provide models for those of us trying to build community owned internet infrastructure in our own cities. I have compiled a (probably incomplete) list of these projects and some key aspects of their story.
 
 ## 1. Detroit Community Technology Project
 
@@ -53,9 +53,11 @@ Overall, the Detroit community wireless project and all its actors have a strong
 
 Our neighbors in NYC have been hard at work since 2014 installing Batman-advance routers on rooftops in order to bypass the "cable cartel" in their city. They have been able to provide speeds up to a gigabit, and most network users voluntarily pay $20 per month for access.
 
-NYC Mesh is a 501(c)3 non-profit, and relies on volunteers for their installs. They've partnered with [Silicon Harlem](http://www.siliconharlem.net/), which has [its own community wireless project](http://www.siliconharlem.net/rise-harlem/) planned for 2019. NYC Mesh's own expasion plans are very ambitious, averaging [3.5 installs per week this March.](https://www.nycmesh.net/blog/march-2019-update/)
+NYC Mesh is a 501(c)3 non-profit, and relies on volunteers for their installs. They've partnered with [Silicon Harlem](http://www.siliconharlem.net/), which has [its own community wireless project](http://www.siliconharlem.net/rise-harlem/) planned for 2019. NYC Mesh's own expansion plans are very ambitious, averaging [3.5 installs per week this March.](https://www.nycmesh.net/blog/march-2019-update/)
 
-While the organization does pay lip-service to digital justice issues, there seems to be relatively little going on to foster inclusion in the project. The website does point us to a handy [volunteers page,](https://www.nycmesh.net/help) and [training materials,](https://docs.nycmesh.net/installs/) though. This judgement is based on a preliminary review of their online resources, and could of course be different on the ground. It's also important to note that they seem to have benefited from rather rapid expansion, possibly as a result of their willingness to "act like a business" when it comes to handling support, installs, etc.
+While the organization does approach digital justice issues, there is comparatively less emphasis than what's happening in Detroit and Red Hook. The website does point us to a handy [volunteers page,](https://www.nycmesh.net/help) and [training materials,](https://docs.nycmesh.net/installs/) though. This judgement is based on a preliminary review of their online resources, and could of course be different on the ground. 
+
+Their network has seen very rapid expansion, possibly as a result of their willingness to "act like a business" when it comes to handling support, installs, etc. Probably the greatest achievement of NYC Mesh is their operationalization of volunteer efforts. They have an online ticketing system for customer service requests, and a clear onboarding process for new node operators and volunteers.
 
 -----
 
@@ -119,11 +121,13 @@ This project is based in Pittsburg, and was started by Meta Mesh in 2013. They o
 
 **Technology:** [sudo-wrt](https://github.com/sudomesh/sudowrt-firmware)
 
-The People's Open Network is based in Oakland, and is partnered with Sudo Mesh. Sudo Mesh makes a custom firmware, called [sudo-wrt](https://github.com/sudomesh/sudowrt-firmware), which uses [babeld](https://github.com/jech/babeld) for its underlying routing protocol. This is the firmware that their network is built upon.
+The People's Open Network is based in Oakland, and is partnered with Sudo Mesh for their software. This is unique from the projects listed above, because those projects do not necessarily have an ongoing relationship with their software development teams.
+
+The routers on the People's Open Network run a custom firmware, called [sudo-wrt](https://github.com/sudomesh/sudowrt-firmware), which uses [babeld](https://github.com/jech/babeld) for its underlying routing protocol.
 
 There are useful applications being built by Sudo Room hackers on this network. [Garden Mesh](https://peoplesopen.net/gardenmesh/) is a highly specialized kind of mesh network that was developed by Sudo Mesh and others during a conference at Omni Commons in 2017. It gathers sensor data from plants, which are meshed together using micro-computers.
 
-This project is supported by [Sudo Mesh](https://sudoroom.org/wiki/Mesh), [Sudo Room](https://sudoroom.org/), [Omni Commons](https://omnicommons.org/), and the [Internet Archive.](https://archive.org/) 
+This project is supported by [Sudo Mesh](https://sudoroom.org/wiki/Mesh), [Sudo Room](https://sudoroom.org/), [Omni Commons](https://omnicommons.org/), and the [Internet Archive.](https://archive.org/) These organizations provide software, meeting space, and free bandwidth. 
 
 -----
 
