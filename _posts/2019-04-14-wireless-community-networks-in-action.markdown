@@ -12,25 +12,30 @@ While a network where everyone is a contributor may sound radical or even far-fe
 
 All of the projects I've presented below focus on closing the [digital divide](https://en.wikipedia.org/wiki/Digital_divide), but some have taken a more active approach to this goal. In particular, DCTP and Red Hook have stood out in this regard. NYC Mesh has probably the most efficient operational setup, and is a model for rapid expansion. Ultimately, each has its own strengths, weaknesses, actors, neighborhoods, needs, and level of maturity. This diversity of networks is one of the strengths of the WCN model, but a good synopsis of existing projects is rare online. If you would like to see your network represented on this list, or have any additions/corrections, please [contact the author!](mailto:lurker@riseup.net)
 
-## 1. Detroit Community Technology Project
+-----
 
-![DCTP Logo][dctplogo]
+## Detroit Community Technology Project
 
-**[Project Homepage](http://www.detroitcommunitytech.org/)**
-
+<div class="columns" markdown="0">
+  <div class="column" markdown="1">
+[![DCTP Logo](/blog/img/WCNsInAction/dctplogo.png)](http://www.detroitcommunitytech.org/)
+  </div>
+  <div class="column" markdown="1">
 **Formed:** 2015
 
 **Location:** Detroit, MI
 
 **Network Size (2019):** 200+ Households
 
-**Funding:** Sliding-scale subscriptions; DCTP Fundraising; [Donations](https://www.alliedmedia.org/dctp/donate)
+**Funding:** Sliding-scale subscriptions; [Donations](https://www.alliedmedia.org/dctp/donate)
 
 **Technology:** Commotion
+  </div>
+</div>
 
 Frustrated by exceptionally bad access to the Internet in Detroit (with 70% of residents not served at all by commercial ISPs,) the [Allied Media Project (AMP)](https://www.alliedmedia.org/) partnered with the [Open Technology Institute (OTI)](https://www.newamerica.org/oti/) in 2014 to form the [Detroit Community Technology Project (DCTP.)](http://www.detroitcommunitytech.org/) This project was initiated in order to train [digital stewards](https://www.alliedmedia.org/news/2012/10/22/amp-partners-open-technology-institute-launch-digital-stewards-program) in the skills necessary to build their own network infrastructure. The [Equitable Internet Initiative (EII)](http://www.detroitcommunitytech.org/?q=eii) was formed in 2015 to assist the Digital Stewards in this process.
 
-![Detroit Ecosystem Map][detroitecosystem]
+![Detroit Ecosystem Map](/blog/img/DetroitEcosystem.jpg)
 
 The network runs on [Commotion](https://www.commotionwireless.net/) firmware. Most hardware is low-cost omni-directional APs, but there is also a relay layer composed of directional antennas. All of the network infrastructure was installed by the Digital Stewards, but the EII played a critical role in coordinating the installs. It is not clear who owns what network hardware, who paid for it, or how it is upgraded. *(14-APR-2019)*
 
@@ -40,12 +45,13 @@ Overall, the Detroit community wireless project and all its actors have a strong
 
 -----
 
-## 2. NYC Mesh
+## NYC Mesh
 
-![NYC Mesh Logo][nycmeshlogo]
-
-**[Project Homepage](https://www.nycmesh.net/)**
-
+<div class="columns" markdown="0">
+  <div class="column" markdown="1">
+[![NYC Mesh Logo](/blog/img/WCNsInAction/nycmeshlogo.png)](https://www.nycmesh.net/)
+  </div>
+  <div class="column" markdown="1">
 **Formed:** 2013
 
 **Location:** New York City, NY
@@ -55,6 +61,8 @@ Overall, the Detroit community wireless project and all its actors have a strong
 **Funding:** Low cost subscriptions; [Donations](https://www.nycmesh.net/donate)
 
 **Technology:** Batman-adv
+  </div>
+</div>
 
 Our neighbors in NYC have been hard at work since 2014 installing Batman-advance routers on rooftops in order to bypass the "cable cartel" in their city. They have been able to provide speeds up to a gigabit, and most network users voluntarily pay $20 per month for access.
 
@@ -66,12 +74,13 @@ Their network has seen very rapid expansion, possibly as a result of their willi
 
 -----
 
-## 3. Red Hook Wifi
+## Red Hook Wifi
 
-![Red-Hook Wifi Logo][redhookwifilogo]
-
-**[Project Homepage](https://redhookwifi.org/)**
-
+<div class="columns" markdown="0">
+  <div class="column" markdown="1">
+[![Red-Hook Wifi Logo](/blog/img/WCNsInAction/red-hook-wifi-logo.png)](https://redhookwifi.org/)
+  </div>
+  <div class="column" markdown="1">
 **Formed:** 2011
 
 **Location:** Red Hook, New York City, NY
@@ -81,6 +90,8 @@ Their network has seen very rapid expansion, possibly as a result of their willi
 **Funding:** RISE NYC covers physical costs; Red Hook Initiative pays for labor; [Donations](https://rhicenter.networkforgood.com/)
 
 **Technology:** Commotion
+  </div>
+</div>
 
 Red Hook is a unique community in Brooklyn that is cut off from the rest of the city by a highway. There is little to no public transportation into the neighborhood. Their network grew in a very tight-knit community, and provides a lot of opportunities to local youth interested in working with technology. 
 
@@ -90,12 +101,13 @@ Another unique aspect of their network the emphasis on resilient installations (
 
 -----
 
-## 4. People's Open Network
+## People's Open Network
 
-![People's Open Network Banner][peoplesopenbanner]
-
-**[Project Homepage](https://peoplesopen.net/)**
-
+<div class="columns" markdown="0">
+  <div class="column" markdown="1">
+[![People's Open Network Banner](/blog/img/WCNsInAction/PeoplesOpenNetworkBanner.png)](https://peoplesopen.net/)
+  </div>
+  <div class="column" markdown="1">
 **Formed:** 2013
 
 **Location:** Oakland, CA
@@ -105,6 +117,8 @@ Another unique aspect of their network the emphasis on resilient installations (
 **Funding:** Sudo Mesh accepts donations on [Patreon](https://www.patreon.com/peoplesopennet)
 
 **Technology:** [sudo-wrt](https://github.com/sudomesh/sudowrt-firmware)
+  </div>
+</div>
 
 The People's Open Network is based in Oakland, and is partnered with Sudo Mesh for their software. This is unique from the projects listed above, because those projects do not necessarily have an ongoing relationship with their software development teams.
 
@@ -116,12 +130,13 @@ This project is supported by [Sudo Mesh](https://sudoroom.org/wiki/Mesh), [Sudo 
 
 -----
 
-## 5. Pitt Mesh
+## Pitt Mesh
 
-![Pitt Mesh Banner Image][pittmeshtable]
-
-**[Project Homepage](https://www.pittmesh.net/)**
-
+<div class="columns" markdown="0">
+  <div class="column" markdown="1">
+[![Pitt Mesh Banner Image](/blog/img/WCNsInAction/PittMeshTable.jpg)](https://www.pittmesh.net/)
+  </div>
+  <div class="column" markdown="1">
 **Formed:** 2013
 
 **Location:** Pittsburg, PA
@@ -131,17 +146,20 @@ This project is supported by [Sudo Mesh](https://sudoroom.org/wiki/Mesh), [Sudo 
 **Funding:** Donations accepted through [MetaMesh](https://www.metamesh.org/), a 501(c)3
 
 **Technology:** OpenWRT (Batman-adv???)
+  </div>
+</div>
 
 This project is based in Pittsburg, and was started by Meta Mesh in 2013. They operate piNet, a network of failure-resistant rasperry pis that host local services like a community hub. Their network consists of about 65 nodes.
 
 -----
 
-## 6. Personal Telco Project
+## Personal Telco Project
 
-![Personal Telco Project Logo][ptplogo]
-
-**[Project Homepage](https://personaltelco.net/wiki)**
-
+<div class="columns" markdown="0">
+  <div class="column" markdown="1">
+[![Personal Telco Project Logo](/blog/img/WCNsInAction/ptp-logo.png)](https://personaltelco.net/wiki)
+  </div>
+  <div class="column" markdown="1">
 **Formed:** 2000
 
 **Location:** Portland, OR
@@ -151,6 +169,8 @@ This project is based in Pittsburg, and was started by Meta Mesh in 2013. They o
 **Funding:** [Donations](http://personaltelco.net/donate)
 
 **Technology:** Not actually a mesh-net
+  </div>
+</div>
 
 This project consists of almost 100 hot-spots throughout the city of Portland, Oregon. The group was established in 2000, and is not a mesh network. (As far as I can tell...) This is more of a hot-spot sharing initiative, but since it appears to provide strong internet access, I've included it here.
 
@@ -181,11 +201,3 @@ In Germany, there is a 48,000+ node network of routers running Batman-advanced. 
 ### Ownership/Fundraising/Tech
 ### Internal Apps
 ### Network Size/Age -->
-
-[detroitecosystem]: /blog/img/DetroitEcosystem.jpg
-[dctplogo]: /blog/img/WCNsInAction/dctplogo.png
-[peoplesopenbanner]: /blog/img/WCNsInAction/PeoplesOpenNetworkBanner.png
-[pittmeshtable]: /blog/img/WCNsInAction/PittMeshTable.jpg
-[nycmeshlogo]: /blog/img/WCNsInAction/nycmeshlogo.png
-[redhookwifilogo]: /blog/img/WCNsInAction/red-hook-wifi-logo.png
-[ptplogo]: /blog/img/WCNsInAction/ptp-logo.png
