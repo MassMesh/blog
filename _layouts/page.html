@@ -11,4 +11,12 @@ layout: default
     {{ content }}
   </div>
 
+  <div class="partners-content">
+    <h2>Project Partners</h2>
+    {% assign partners = page.partners | split:", " %}
+    {% for partner in partners%}
+      <img class="partner-img" src="/blog/img/Partners/{{partner}}.jpg" alt="{{partner}}"/>
+    {% endfor %}
+  </div>
+
 </article>
