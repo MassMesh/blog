@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "55Mbps, what gives!!!???"
-date:   2019-12-01 17:00:00 -0400
+date:   2020-05-28 17:00:00 -0400
 author: James Vorderbruggen
 categories: benchmark yggdrasil 
 ---
