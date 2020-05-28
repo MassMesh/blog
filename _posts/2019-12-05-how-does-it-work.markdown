@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mass Mesh -- How does it work?"
-date:   2019-12-01 17:00:00 -0400
+date:   2019-12-05 17:00:00 -0400
 author: James Vorderbruggen
 categories: installation yggdrasil architecture
 ---
