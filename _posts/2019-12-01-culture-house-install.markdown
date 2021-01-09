@@ -3,7 +3,7 @@ layout: post
 title:  "Mass Mesh x Culture House"
 date:   2019-12-01 17:00:00 -0400
 author: James Vorderbruggen
-categories: installation yggdrasil culturehouse
+categories: installation culturehouse cambridge
 ---
 
 Today, we completed our first official access-point install at [Culture House](http://culturehouse.cc/) in Harvard Square. A huge shout out goes to Stephen and Will for making it happen, and to everyone who has helped us hack a working gateway configuration together. Thanks to your efforts, the old newsstand at the Harvard Square red-line stop will have a 50Mbps Internet connection until it becomes a historical site in April. In the meantime, Culture House has some exciting plans for the space.
