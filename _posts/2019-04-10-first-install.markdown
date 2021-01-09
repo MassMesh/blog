@@ -3,7 +3,7 @@ layout: post
 title:  "Our First Installation"
 date:   2019-04-09 17:00:00 -0400
 author: James Vorderbruggen
-categories: installation lime cjdns
+categories: installation south-end
 ---
 
 ## Calling All South End Residents!
